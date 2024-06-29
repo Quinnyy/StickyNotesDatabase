@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[StickyNote]
 (
-	[Id] INT NOT NULL PRIMARY KEY, 
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
     [Title] NVARCHAR(50) NOT NULL, 
     [Category] NVARCHAR(50) NOT NULL, 
     [CreatedDate] DATETIME NULL, 
