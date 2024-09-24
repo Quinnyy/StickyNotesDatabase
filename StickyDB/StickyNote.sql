@@ -6,5 +6,6 @@
     [CreatedDate] DATETIME NULL, 
     [CreatedBy] NVARCHAR(50) NULL, 
     [Description] NVARCHAR(500) NULL, 
-    [Updated] DATETIME NULL
+    [Updated] DATETIME NULL, 
+    [DayCreated] VARCHAR(100) NULL
 )
