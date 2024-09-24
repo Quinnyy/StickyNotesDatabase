@@ -60,6 +60,8 @@
   <ItemGroup>
     <Build Include="StickyNote.sql" />
     <Build Include="Categories.sql" />
-    <Build Include="test T.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PopulateCategoryTable.sql" />
   </ItemGroup>
 </Project>
